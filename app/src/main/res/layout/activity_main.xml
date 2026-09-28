@@ -18,7 +18,7 @@
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="63dp"
         android:ems="10"
         android:inputType="textEmailAddress" />
 
@@ -31,7 +31,7 @@
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="71dp"
         android:ems="10"
         android:inputType="textPassword" />
 
@@ -44,7 +44,14 @@
     <EditText
         android:id="@+id/editTextTextPassword2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="61dp"
         android:ems="10"
         android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Zatwierdź" />
 </LinearLayout>
