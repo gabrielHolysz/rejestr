@@ -10,6 +10,15 @@
 
 
     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#007F7F"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:text="Rejestruj konto" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,4 +70,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Witaj: " />
+
 </LinearLayout>
